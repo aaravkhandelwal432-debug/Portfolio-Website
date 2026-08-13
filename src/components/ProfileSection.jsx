@@ -104,7 +104,7 @@ const ProfileSection = ({ setActiveSection }) => {
         <div style={styles.rightCol}>
           <div className="circle-avatar-container" style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <img 
-              src="/photo.png" 
+              src={`${import.meta.env.BASE_URL}photo.png`} 
               alt="Aarav Khandelwal" 
               style={{
                 width: '520px',
